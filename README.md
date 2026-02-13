@@ -4,6 +4,8 @@
 
 We implemented a "fast retry" mechanism by catching errors in the worker and immediately pushing the failed task back to the end of the queue.
 
+https://www.loom.com/share/5deb2c77130e473f96d377689eaeee2f
+
 **Pros**:
 -   **Data Safety**: Messages aren't lost.
 
